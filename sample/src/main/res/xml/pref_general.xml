@@ -4,7 +4,7 @@
     <com.pavelsikun.seekbarpreference.SeekBarPreference
         android:defaultValue="600"
         android:key="pr1"
-        android:title="SeekbarPreference 1"
+        android:title="SeekbarPreference 1 This is a very long title. This is a very long title."
 
         sample:msbp_interval="20"
         sample:msbp_maxValue="1000"
@@ -15,7 +15,7 @@
         android:defaultValue="0"
         android:key="pr2"
         android:title="SeekbarPreference 2"
-
+        android:summary="This is a very long text. This is a very long text. This is a very long text. This is a very long text. This is a very long text. This is a very long text."
         sample:msbp_maxValue="1000"
         sample:msbp_measurementUnit="tomatoes"
         sample:msbp_minValue="-1000" />
